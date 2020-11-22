@@ -26,8 +26,9 @@ button{
 }
 
 #winscore{
-	color: #d36582;
-	-webkit-text-stroke: 0.5px #494949;
+	color: #5f0f40;
+	text-shadow: 1px 1px 1px;
+	/*-webkit-text-stroke: 0.5px #494949;*/
 
 }
 
@@ -58,4 +59,20 @@ img{
 
 #end{
 	margin-top: 15%;
+}
+@keyframes flash{
+	50%{
+		color: red;
+	}
+	100%{
+		color: black;
+	}
+}
+
+@media screen and (max-width: 479px) {
+/* start of phone styles */
+.container{
+width: 95%;
+}
+
 }
